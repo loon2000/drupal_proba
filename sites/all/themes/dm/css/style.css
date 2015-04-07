@@ -1,0 +1,21 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+
+.node-article img{
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+.node-article img:hover{
+  width: 300px;
+}
+.page-node-2 .field-name-body {
+  width: 100%;
+  height: 500px;
+  background: url(../img/css3-markup.jpg) no-repeat;
+  background-size: 100px;
+}
